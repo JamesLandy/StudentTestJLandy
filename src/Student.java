@@ -90,9 +90,9 @@ public class Student {
     }
 
     /*
-     * This method is used by the original StudentListProgram.
-     * It is not needed in the StudentListComparator program.
+     * After updating to using the Comparator interface, this getSortKey method is no longer needed.
      */
+    /*
     public String getSortKey(int keycode) {
         String sortKey = "";  // Start with an initial empty string, then check the sort key code
         if (keycode == 1) {
@@ -105,4 +105,5 @@ public class Student {
         }
         return sortKey;
     }
+    */
 }
